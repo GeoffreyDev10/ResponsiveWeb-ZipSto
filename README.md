@@ -1,82 +1,76 @@
-Zip’Sto 🔥
+Zip’Sto
 
 Zippos vintage restaurés, prêts à reprendre feu.
 
-🧠 Concept
+Présentation
 
-Zip’Sto est un site web vitrine avec une partie vente simple, dédié à des Zippos chinés en brocante, soigneusement restaurés, testés et remis en circulation à un prix plus accessible qu’un modèle neuf.
+Zip’Sto est un site web vitrine avec une partie vente simple, dédié à la revente de Zippos vintage chinés en brocante, restaurés et testés, puis remis en circulation à un prix plus accessible qu’un modèle neuf.
 
-Le nom Zip’Sto vient de :
+Le nom Zip’Sto est la contraction de :
 
-Zip → Zippo
+Zip : Zippo
 
-Sto → Story (chaque Zippo a une histoire)
+Sto : Story
+Chaque Zippo possède une histoire, prolongée par une seconde vie.
 
-L’objectif du projet est de proposer une expérience mobile-first, moderne et élégante, mettant en valeur le produit et son histoire, sans surcharge visuelle.
+Le projet met l’accent sur une expérience mobile-first, un design épuré et une hiérarchie visuelle claire, centrée sur le produit.
 
-📱 Pages du site
+Structure du site
+Accueil
 
-Le site est composé de 3 pages principales :
+Section hero visuelle
 
-🏠 Accueil
+Bloc Concept / Qualité interactif
 
-Hero visuel fort
+Présentation de la philosophie du projet
 
-Section Info avec switch Concept / Qualité
+Mise en avant des produits
 
-Mise en avant de l’histoire et du savoir-faire
+Produits
 
-Teaser des produits
+Affichage des Zippos disponibles
 
-🔥 Produits
+Carte produit unique (un produit à la fois)
 
-Présentation des Zippos disponibles
+Design centré sur le visuel et les informations essentielles
 
-Carte produit (1 produit à la fois)
-
-Design épuré, centré sur le visuel
-
-Bouton vers la liste complète des modèles
-
-✉️ Contact
+Contact
 
 Formulaire simple
 
-Newsletter
+Inscription à la newsletter
 
-Footer complet avec navigation et réseaux
+Footer complet avec navigation et liens légaux
 
-🎨 Direction artistique
+Direction artistique
 
-Mobile-first
+Approche mobile-first
 
-Style minimal / premium
+Style minimal et premium
 
-Inspiré de sites “Apple-like”
+Inspirations modernes (interfaces aérées, cartes, ombres douces)
 
-Beaucoup d’air, typographies lisibles
+Palette de couleurs chaudes (rouges / bruns)
 
-Couleurs dominantes autour de tons rouges/bruns
-
-Arrondis, ombres douces, animations légères
+Animations discrètes et cohérentes
 
 Typographies
 
-Modak → identité / titres forts
+Modak : identité visuelle et titres
 
-Inter → textes, UI, lisibilité
+Inter : textes et interface utilisateur
 
-🛠️ Technologies utilisées
+Technologies utilisées
 
 HTML5
 
 CSS3 (Flexbox)
 
-JavaScript Vanilla
+JavaScript (Vanilla)
 
-Aucune librairie / framework
+Aucun framework ou bibliothèque externe
 
-📁 Structure du projet
+Organisation du projet
 /assets
   /images
   /icons
@@ -88,19 +82,17 @@ index.html
 products.html
 contact.html
 
-🎯 Objectifs du projet
+Objectifs pédagogiques
 
-Respecter une approche mobile-first
+Concevoir un site web mobile-first
 
-Créer un site design, cohérent et lisible
+Appliquer les bonnes pratiques HTML, CSS et JavaScript
 
-Mettre en valeur un produit physique
+Travailler l’UX et la lisibilité des contenus
 
-Appliquer les bonnes pratiques HTML / CSS / JS
+Mettre en valeur un produit physique par le design
 
-Travailler l’UX et la hiérarchie visuelle
-
-👤 Auteur
+Auteur
 
 Projet réalisé par Geoffrey Deverchere
-Dans le cadre d’un projet web (enseignement).
+Dans le cadre d’un projet web académique.
