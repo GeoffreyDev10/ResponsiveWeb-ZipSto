@@ -1,98 +1,88 @@
-Zip’Sto
+# Zip’Sto
 
-Zippos vintage restaurés, prêts à reprendre feu.
+**Zippos vintage restaurés — prêts à reprendre feu**
 
-Présentation
+---
 
-Zip’Sto est un site web vitrine avec une partie vente simple, dédié à la revente de Zippos vintage chinés en brocante, restaurés et testés, puis remis en circulation à un prix plus accessible qu’un modèle neuf.
+## À propos
 
-Le nom Zip’Sto est la contraction de :
+**Zip’Sto** est un site web vitrine avec une fonctionnalité de vente simple, dédié à des **Zippos vintage chinés**, **restaurés avec soin** et remis en circulation à un prix plus accessible qu’un modèle neuf.
 
-Zip : Zippo
+Chaque Zippo possède une histoire.  
+Zip’Sto lui offre une seconde vie.
 
-Sto : Story
-Chaque Zippo possède une histoire, prolongée par une seconde vie.
+---
 
-Le projet met l’accent sur une expérience mobile-first, un design épuré et une hiérarchie visuelle claire, centrée sur le produit.
+## Aperçu du projet
 
-Structure du site
-Accueil
+- Site **mobile-first**
+- Design minimal et premium
+- Mise en avant du produit et de son histoire
+- Navigation simple et lisible
 
-Section hero visuelle
+---
 
-Bloc Concept / Qualité interactif
+## Pages
 
-Présentation de la philosophie du projet
+- **Accueil**  
+  Hero visuel, section Concept / Qualité interactive, présentation du projet
 
-Mise en avant des produits
+- **Produits**  
+  Carte produit (un produit à la fois), informations essentielles, appel à l’action
 
-Produits
+- **Contact**  
+  Formulaire simple, newsletter, footer complet
 
-Affichage des Zippos disponibles
+---
 
-Carte produit unique (un produit à la fois)
+## Direction artistique
 
-Design centré sur le visuel et les informations essentielles
+- Interfaces aérées
+- Cartes arrondies, ombres douces
+- Palette de couleurs chaudes (rouges / bruns)
+- Animations légères et cohérentes
 
-Contact
+### Typographies
+- **Modak** — identité et titres
+- **Inter** — textes et interface
 
-Formulaire simple
+---
 
-Inscription à la newsletter
+## Technologies
 
-Footer complet avec navigation et liens légaux
+- HTML5  
+- CSS3 (Flexbox)  
+- JavaScript (Vanilla)  
 
-Direction artistique
+Aucun framework ou bibliothèque externe.
 
-Approche mobile-first
+---
 
-Style minimal et premium
+## Structure du projet
 
-Inspirations modernes (interfaces aérées, cartes, ombres douces)
-
-Palette de couleurs chaudes (rouges / bruns)
-
-Animations discrètes et cohérentes
-
-Typographies
-
-Modak : identité visuelle et titres
-
-Inter : textes et interface utilisateur
-
-Technologies utilisées
-
-HTML5
-
-CSS3 (Flexbox)
-
-JavaScript (Vanilla)
-
-Aucun framework ou bibliothèque externe
-
-Organisation du projet
-/assets
-  /images
-  /icons
-/css
-  style.css
-/js
-  app.js
+```text
+assets/
+ ├─ images/
+ └─ icons/
+css/
+ └─ style.css
+js/
+ └─ app.js
 index.html
 products.html
 contact.html
 
-Objectifs pédagogiques
+Objectifs :
 
 Concevoir un site web mobile-first
 
-Appliquer les bonnes pratiques HTML, CSS et JavaScript
+Appliquer les bonnes pratiques HTML / CSS / JS
 
-Travailler l’UX et la lisibilité des contenus
+Travailler l’UX et la hiérarchie visuelle
 
-Mettre en valeur un produit physique par le design
+Valoriser un produit physique par le design
 
-Auteur
+Auteur :
 
-Projet réalisé par Geoffrey Deverchere
-Dans le cadre d’un projet web académique.
+Geoffrey Deverchere
+Projet réalisé dans le cadre d’un projet web académique.
