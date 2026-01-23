@@ -72,6 +72,8 @@ index.html
 products.html
 contact.html
 
+```
+
 Objectifs :
 
 Concevoir un site web mobile-first
