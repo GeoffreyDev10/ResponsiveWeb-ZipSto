@@ -16,36 +16,34 @@
 <body>
 
   <!-- HEADER -->
+<section class="hero">
   <header class="header">
-    <a class="header__brand" href="./index.html" aria-label="Accueil">Zip’</a>
+    <div class="header__inner">
+      <a class="header__logo" href="#">
+        <span class="header__logo-slot"></span>
+      </a>
 
-    <button class="header__burger" type="button" aria-label="Menu">
-      <span class="header__line"></span>
-      <span class="header__line"></span>
-    </button>
+      <button class="header__burger" type="button" aria-label="Menu">
+        <span class="header__burger-line header__burger-line--top"></span>
+        <span class="header__burger-row">
+          <span class="header__burger-line header__burger-line--bottom"></span>
+          <span class="header__burger-dot"></span>
+        </span>
+      </button>
+    </div>
   </header>
 
-  <main>
+  <h1 class="hero__title">Zip’Sto</h1>
 
-    <!-- HERO BG -->
-    <section class="hero">
-      <div class="hero__circles" aria-hidden="true"></div>
-
-      <div class="hero__title-zone">
-        <h1 class="hero__title">Zip’Sto</h1>
-      </div>
-
-      <div class="hero__visual">
+    <div class="hero__product">
         <div class="hero__price">65€</div>
-        <img class="hero__zippo" src="./assets/images/hero-zippo.webp" alt="Zippo vintage" width="420" height="520">
-      </div>
+        <div class="hero__image"></div>
+        <p class="hero__tagline">Zippo vintage sélectionnés, restaurés et prêts à reprendre feu.</p>
+    </div>
 
-      <p class="hero__subtitle">
-        Zippo vintage sélectionnés, restaurés et prêts à reprendre feu.
-      </p>
+</section>
 
-      <div class="hero__wave" aria-hidden="true"></div>
-    </section>
+  <main>
 
     <!-- INFO -->
     <section class="info">
@@ -62,13 +60,15 @@
         </div>
 
         <!-- titre -->
-        <h2 class="info-title">
-            Chaque flamme<br>
-            a une histoire.<br>
-            Nous lui offrons<br>
-            une seconde<br>
-            vie.
-        </h2>
+        <div class="info-title-wrap">
+            <h2 class="info-title">
+                Chaque flamme<br>
+                a une histoire.<br>
+                Nous lui offrons<br>
+                une seconde<br>
+                vie.
+            </h2>
+        </div>
 
         <!-- cartes (placeholders) -->
         <div class="info-cards" aria-hidden="true">
@@ -77,13 +77,15 @@
         </div>
 
         <!-- texte -->
-        <p class="info-text">
-            Des pièces anciennes sélectionnées<br>
-            avec <strong>soin</strong>,<br>
-            <strong>restaurées</strong> pour durer,<br>
-            entre collection et flamme du<br>
-            quotidien.
-        </p>
+        <div class="info-text-wrap">
+            <p class="info-text">
+                Des pièces anciennes sélectionnées<br>
+                avec <strong>soin</strong>,<br>
+                <strong>restaurées</strong> pour durer,<br>
+                entre collection et flamme du<br>
+                quotidien.
+            </p>
+        </div>
 
         <!-- CTA -->
         <button class="info-cta" type="button">
