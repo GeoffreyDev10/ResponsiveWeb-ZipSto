@@ -162,7 +162,7 @@ img{ display:block; max-width:100%; height:auto; }
   margin-top: 96px;    
   margin-bottom: 16px;  
 
-  padding: 15px 30px; /* un poil plus généreux */
+  padding: 15px 30px;
   border-radius: 999px;
   border: none;
 
@@ -176,12 +176,12 @@ img{ display:block; max-width:100%; height:auto; }
 
   font-family: "Montserrat", system-ui, sans-serif;
   font-size: 15px;
-  font-weight: 700;            /* un peu plus affirmé */
+  font-weight: 700; 
   letter-spacing: .45px;
   color: #fff;
 
   cursor: pointer;
-  position: relative;          /* pour le highlight */
+  position: relative; 
   user-select: none;
   -webkit-tap-highlight-color: transparent;
 
@@ -191,7 +191,7 @@ img{ display:block; max-width:100%; height:auto; }
     box-shadow .25s ease;
   
   box-shadow: 
-    0 14px 30px rgba(0,0,0,.22),   /* plus de profondeur */
+    0 14px 30px rgba(0,0,0,.22),
     inset 0 1px 0 rgba(255,255,255,.28);
 }
 
@@ -508,8 +508,8 @@ img{ display:block; max-width:100%; height:auto; }
   text-align: center;
   font-family: "Inter", system-ui;
   font-size: 28px;
-  font-weight: 900;        /* plus massif */
-  letter-spacing: -0.5px; /* impact visuel */
+  font-weight: 900;      
+  letter-spacing: -0.5px; 
 }
 
 .products__subtitle{
@@ -864,7 +864,6 @@ img{ display:block; max-width:100%; height:auto; }
 
 /* ============ ZIP'STO TITLE ANIMATION ============ */
 
-/* Wrapper = zone cliquable + bounce propre (n'interfère pas avec le transform animé du titre) */
 .hero__titleWrap{
   display: inline-block;
   cursor: pointer;
@@ -873,19 +872,17 @@ img{ display:block; max-width:100%; height:auto; }
   transform-origin: center;
 }
 
-/* Tap = rebond clean */
 .hero__titleWrap:active{
   animation: titleBounce .18s cubic-bezier(.34,1.56,.64,1) both;
 }
 
-/* Petit feedback visuel au tap */
 .hero__titleWrap:active .hero__title{
   filter: brightness(1.03);
 }
 
 /* Titre = entrée + float + shine */
 .hero__title{
-  position: relative;              /* nécessaire pour le shine */
+  position: relative;             
   transform-origin: center;
   will-change: transform, filter, opacity;
 
@@ -896,7 +893,6 @@ img{ display:block; max-width:100%; height:auto; }
   transition: filter .15s ease;
 }
 
-/* Entrée “pose / pop” */
 @keyframes titleIn{
   0%{
     opacity: 0;
@@ -914,13 +910,12 @@ img{ display:block; max-width:100%; height:auto; }
   }
 }
 
-/* Micro respiration */
 @keyframes titleFloat{
   0%,100%{ transform: translateY(0) rotate(-9deg); }
   50%    { transform: translateY(-6px) rotate(-9deg); }
 }
 
-/* Shine (reflet) */
+/* Shine */
 .hero__title::after{
   content:"";
   position: absolute;

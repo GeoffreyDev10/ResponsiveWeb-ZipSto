@@ -1,4 +1,4 @@
-/* CONTACT — additions only (ne touche pas styles.css) */
+/* CONTACT */
 
 .contactTop{
   background: #FEFEFE;
@@ -13,7 +13,7 @@
     0 0 1px rgba(0,0,0,.25);
 }
 
-/* Burger en noir (contraste) */
+/* Burger en noir */
 .contactTop .burger__line{
   background: #111;
   box-shadow: 0 5px 0 rgba(0,0,0,.10);
@@ -38,7 +38,7 @@
   border: 2px solid rgba(0,0,0,.08);
   box-shadow: 0 16px 24px rgba(0,0,0,.10);
 
-  padding: 24px 20px 26px; /* ⬅️ + d’air vertical */
+  padding: 24px 20px 26px; 
 }
 
 .contact__title{
@@ -62,7 +62,7 @@
 .contact__form{
   display: flex;
   flex-direction: column;
-  gap: 16px; /* avant 12px */
+  gap: 16px; 
 }
 
 .contact__label{
@@ -99,7 +99,6 @@
   border-color: rgba(171,63,50,.45);
 }
 
-/* réutilise ton style .products__cta, on le met juste full width */
 .contact__submit{
   width: 100%;
   margin-top: 6px;

@@ -1,11 +1,9 @@
-/* PRODUITS — page only (ne modifie pas styles.css) */
+/* PRODUITS */
 
-/* header clair (même logique que contact) */
 .pageTop{
   background: #FEFEFE;
 }
 
-/* si tu gardes Zip' en blanc + bordure noire */
 .pageTop__brand{
   color: #fff;
   -webkit-text-stroke: 1.5px #111;
@@ -75,13 +73,10 @@
   }
 }
 
-/* sécurité: les cards remplissent bien la colonne */
 .products__grid .product-card{
   width: 100%;
 }
 
-/* optionnel (si ton .product-card__img est vide):
-   on impose un ratio propre sans toucher au style de la card */
 .products__grid .product-card__img{
   aspect-ratio: 16 / 10;
 }

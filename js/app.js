@@ -81,10 +81,8 @@ function switchMode(mode) {
   setActiveButton(mode);
   moveThumb(mode);
 
-  // swap cartes en douceur
   updateCards(mode);
 
-  // relance l'animation texte
   updateText(mode);
 }
 
@@ -92,7 +90,6 @@ switchButtons.forEach((btn) => {
   btn.addEventListener("click", () => switchMode(btn.dataset.mode));
 });
 
-// init
 updateText("concept");
 updateCards("concept");
 setActiveButton("concept");
