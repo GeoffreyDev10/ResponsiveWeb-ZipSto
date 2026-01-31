@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zip’Sto — Produits</title>
+
+  <!-- fonts (comme tes pages) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <!-- base (NE PAS MODIFIER) -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!-- page only -->
+  <link rel="stylesheet" href="./css/produits.css" />
+</head>
+
+<body>
+
+  <!-- HEADER (même logique que contact : Zip' + burger, sans toucher index) -->
+  <header class="hero__top pageTop">
+    <a class="hero__brand" href="./index.html">
+      <span class="hero__brandText pageTop__brand">Zip’</span>
+    </a>
+
+    <button class="hero__menuBtn" id="burgerBtn" type="button" aria-label="Ouvrir le menu">
+      <span class="burger" aria-hidden="true">
+        <span class="burger__line burger__line--top"></span>
+        <span class="burger__line burger__line--bottom"></span>
+      </span>
+    </button>
+  </header>
+
+  <main class="products">
+    <header class="products__head">
+      <h1 class="products__title">Produits</h1>
+      <p class="products__subtitle">Notre sélection de Zippo vintage, prêts à reprendre feu.</p>
+    </header>
+
+    <!-- LISTING : ici on injectera les cards via JSON -->
+    <section class="products__grid" aria-label="Liste des produits">
+
+  <!-- PRODUIT 1 -->
+  <div class="product-card" aria-label="Produit">
+    <div class="product-card__img"></div>
+
+    <div class="product-card__content">
+      <div class="product-card__top">
+        <div class="product-card__texts">
+          <p class="product-card__name">Zippo Vintage 1998</p>
+          <p class="product-card__state">État : Neuf</p>
+        </div>
+
+        <p class="product-card__price">49€</p>
+      </div>
+
+      <div class="product-card__bottom">
+        <span class="product-card__badge">Restauré &amp; testé</span>
+        <button class="product-card__info" type="button" aria-label="Infos produit">
+          <img src="./assets/icons/icon-info.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUIT 2 -->
+  <div class="product-card" aria-label="Produit">
+    <div class="product-card__img"></div>
+    <div class="product-card__content">
+      <div class="product-card__top">
+        <div class="product-card__texts">
+          <p class="product-card__name">Zippo Chrome Classique</p>
+          <p class="product-card__state">État : Très bon</p>
+        </div>
+        <p class="product-card__price">55€</p>
+      </div>
+      <div class="product-card__bottom">
+        <span class="product-card__badge">Restauré &amp; testé</span>
+        <button class="product-card__info" type="button" aria-label="Infos produit">
+          <img src="./assets/icons/icon-info.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUIT 3 -->
+  <div class="product-card" aria-label="Produit">
+    <div class="product-card__img"></div>
+    <div class="product-card__content">
+      <div class="product-card__top">
+        <div class="product-card__texts">
+          <p class="product-card__name">Zippo USA 2001</p>
+          <p class="product-card__state">État : Restauré</p>
+        </div>
+        <p class="product-card__price">59€</p>
+      </div>
+      <div class="product-card__bottom">
+        <span class="product-card__badge">Restauré &amp; testé</span>
+        <button class="product-card__info" type="button" aria-label="Infos produit">
+          <img src="./assets/icons/icon-info.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUIT 4 -->
+  <div class="product-card" aria-label="Produit">
+    <div class="product-card__img"></div>
+    <div class="product-card__content">
+      <div class="product-card__top">
+        <div class="product-card__texts">
+          <p class="product-card__name">Zippo Vintage Laiton</p>
+          <p class="product-card__state">État : Bon</p>
+        </div>
+        <p class="product-card__price">45€</p>
+      </div>
+      <div class="product-card__bottom">
+        <span class="product-card__badge">Restauré &amp; testé</span>
+        <button class="product-card__info" type="button" aria-label="Infos produit">
+          <img src="./assets/icons/icon-info.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUIT 5 -->
+  <div class="product-card" aria-label="Produit">
+    <div class="product-card__img"></div>
+    <div class="product-card__content">
+      <div class="product-card__top">
+        <div class="product-card__texts">
+          <p class="product-card__name">Zippo Edition USA</p>
+          <p class="product-card__state">État : Très bon</p>
+        </div>
+        <p class="product-card__price">65€</p>
+      </div>
+      <div class="product-card__bottom">
+        <span class="product-card__badge">Restauré &amp; testé</span>
+        <button class="product-card__info" type="button" aria-label="Infos produit">
+          <img src="./assets/icons/icon-info.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUIT 6 -->
+  <div class="product-card" aria-label="Produit">
+    <div class="product-card__img"></div>
+    <div class="product-card__content">
+      <div class="product-card__top">
+        <div class="product-card__texts">
+          <p class="product-card__name">Zippo Collection 90’s</p>
+          <p class="product-card__state">État : Restauré</p>
+        </div>
+        <p class="product-card__price">72€</p>
+      </div>
+      <div class="product-card__bottom">
+        <span class="product-card__badge">Restauré &amp; testé</span>
+        <button class="product-card__info" type="button" aria-label="Infos produit">
+          <img src="./assets/icons/icon-info.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER — IDENTIQUE À LA PAGE D’ACCUEIL -->
+<footer class="footer">
+  <nav class="footer__nav">
+    <a href="./index.html">Accueil</a>
+    <a href="./produits.html">Produits</a>
+    <a href="./contact.html">Contact</a>
+  </nav>
+
+  <p class="footer__text">
+    Inscrivez-vous à notre newsletter<br>
+    pour recevoir les dernières actualités et mises à jour.
+  </p>
+
+  <form class="footer__form">
+    <input
+      class="footer__input"
+      type="email"
+      placeholder="Adresse Email"
+      aria-label="Adresse Email"
+    >
+    <button class="footer__send" type="submit" aria-label="Envoyer">
+      <img src="./assets/icons/arrow-right.svg" alt="">
+    </button>
+  </form>
+
+  <div class="footer__dots">
+    <a href="#" aria-label="YouTube">
+      <img src="./assets/icons/icon-youtube.svg" alt="">
+    </a>
+    <a href="#" aria-label="TikTok">
+      <img src="./assets/icons/icon-tiktok.svg" alt="">
+    </a>
+    <a href="#" aria-label="Instagram">
+      <img src="./assets/icons/icon-instagram.svg" alt="">
+    </a>
+  </div>
+
+  <div class="footer__legal">
+    <div class="footer__links">
+      <a href="#">CREDITS</a>
+      <a href="#">CONDITIONS</a>
+      <a href="#">CONFIDENTIALITE</a>
+    </div>
+    <div class="footer__copy">©2026 ZIP’STO, INC</div>
+  </div>
+
+  <div class="footer__big">ZIP’STO</div>
+</footer>
+
+<!-- JS PRODUITS — burger uniquement -->
+<script src="./js/produits.js" defer></script>
+
+</body>
+</html>

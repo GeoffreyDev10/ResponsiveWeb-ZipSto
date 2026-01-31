@@ -98,11 +98,14 @@ updateCards("concept");
 setActiveButton("concept");
 moveThumb("concept");
 
-// burger anim
-const burger = document.querySelector(".header__burger");
+// BURGER MENU
+const burgerBtn = document.getElementById("burgerBtn");
 
-if (burger) {
-  burger.addEventListener("click", () => {
-    burger.classList.toggle("is-open");
+if (burgerBtn) {
+  burgerBtn.addEventListener("click", () => {
+    burgerBtn.classList.toggle("menu-open");
   });
 }
+
+
+

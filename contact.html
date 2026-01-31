@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zip’Sto — Contact</title>
+
+  <!-- fonts (comme index) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <!-- base -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!-- page only -->
+  <link rel="stylesheet" href="./css/contact.css" />
+</head>
+
+<body>
+
+  <!-- HEADER (même structure que l'accueil) -->
+  <header class="hero__top contactTop">
+    <a class="hero__brand" href="./index.html">
+      <span class="hero__brandText contactTop__brand">Zip’</span>
+    </a>
+
+    <button class="hero__menuBtn" id="burgerBtn" type="button" aria-label="Ouvrir le menu">
+      <span class="burger" aria-hidden="true">
+        <span class="burger__line burger__line--top"></span>
+        <span class="burger__line burger__line--bottom"></span>
+      </span>
+    </button>
+  </header>
+
+  <main class="contact">
+    <section class="contact__card" aria-label="Formulaire de contact">
+      <h1 class="contact__title">Contact</h1>
+      <p class="contact__subtitle">
+        Une question sur un modèle ou une restauration ? Écris-nous.
+      </p>
+
+      <form class="contact__form">
+        <label class="contact__label">
+          Nom
+          <input class="contact__input" type="text" name="name" placeholder="Ton nom" required>
+        </label>
+
+        <label class="contact__label">
+          Email
+          <input class="contact__input" type="email" name="email" placeholder="ton@email.com" required>
+        </label>
+
+        <label class="contact__label">
+          Message
+          <textarea class="contact__textarea" name="message" rows="5" placeholder="Ton message..." required></textarea>
+        </label>
+
+        <!-- bouton simple, DA identique -->
+        <button class="products__cta contact__submit" type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER IDENTIQUE (copié depuis index.html) -->
+  <footer class="footer">
+    <nav class="footer__nav">
+      <a href="./index.html">Accueil</a>
+      <a href="./produits.html">Produits</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+
+    <p class="footer__text">
+      Inscrivez-vous à notre newsletter<br>
+      pour recevoir les dernières actualités et mises à jour.
+    </p>
+
+    <form class="footer__form">
+      <input
+        class="footer__input"
+        type="email"
+        placeholder="Adresse Email"
+        aria-label="Adresse Email"
+      >
+
+      <button class="footer__send" type="submit" aria-label="Envoyer">
+        <img src="./assets/icons/arrow-right.svg" alt="">
+      </button>
+    </form>
+
+    <div class="footer__dots">
+      <a href="#" aria-label="YouTube">
+        <img src="./assets/icons/icon-youtube.svg" alt="">
+      </a>
+      <a href="#" aria-label="TikTok">
+        <img src="./assets/icons/icon-tiktok.svg" alt="">
+      </a>
+      <a href="#" aria-label="Instagram">
+        <img src="./assets/icons/icon-instagram.svg" alt="">
+      </a>
+    </div>
+
+    <div class="footer__legal">
+      <div class="footer__links">
+        <a href="#">CREDITS</a>
+        <a href="#">CONDITIONS</a>
+        <a href="#">CONFIDENTIALITE</a>
+      </div>
+
+      <div class="footer__copy">©2026 ZIP’STO, INC</div>
+    </div>
+
+    <div class="footer__big">ZIP’STO</div>
+  </footer>
+
+  <!-- JS page only (burger) -->
+  <script src="./js/contact.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* PRODUITS — page only (ne modifie pas styles.css) */
+
+/* header clair (même logique que contact) */
+.pageTop{
+  background: #FEFEFE;
+}
+
+/* si tu gardes Zip' en blanc + bordure noire */
+.pageTop__brand{
+  color: #fff;
+  -webkit-text-stroke: 1.5px #111;
+  text-shadow: 0 3px 4px rgba(0,0,0,.18);
+}
+
+/* burger noir pour contraste */
+.pageTop .burger__line{
+  background: #111;
+  box-shadow: 0 5px 0 rgba(0,0,0,.10);
+}
+.pageTop .burger__line--bottom::after{
+  background: #111;
+  box-shadow: 0 5px 0 rgba(0,0,0,.10);
+}
+
+/* layout page */
+.products{
+  padding: 26px 18px 72px;
+}
+
+.products__head{
+  max-width: 980px;
+  margin: 0 auto 18px;
+  text-align: center;
+}
+
+.products__title{
+  margin: 8px 0 6px;
+  font-family: "Inter", system-ui;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  color: #111;
+}
+
+.products__subtitle{
+  margin: 0;
+  font-family: "Inter", system-ui;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.4;
+}
+
+/* grille produits */
+.products__grid{
+  max-width: 980px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+/* tablette */
+@media (min-width: 680px){
+  .products__grid{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+}
+
+/* desktop large */
+@media (min-width: 1024px){
+  .products__grid{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+}
+
+/* sécurité: les cards remplissent bien la colonne */
+.products__grid .product-card{
+  width: 100%;
+}
+
+/* optionnel (si ton .product-card__img est vide):
+   on impose un ratio propre sans toucher au style de la card */
+.products__grid .product-card__img{
+  aspect-ratio: 16 / 10;
+}
